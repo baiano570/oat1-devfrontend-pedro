@@ -1,63 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Luis Henrique Lígio Oliveira</title>
     <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 50px auto;
             padding: 20px;
             max-width: 800px;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #ecf0f1;
+            color: #2c3e50;
             line-height: 1.6;
         }
+
         h1 {
             text-align: center;
-            color: #2c3e50;
+            color: #34495e;
+            font-size: 28px;
+            margin-bottom: 10px;
         }
+
         h2 {
-            border-bottom: 2px solid #2c3e50;
+            border-bottom: 2px solid #3498db;
             padding-bottom: 5px;
-            color: #2c3e50;
+            color: #3498db;
+            font-size: 22px;
+            margin-bottom: 10px;
         }
+
         .section {
             background: #ffffff;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            color: #2c3e50; /* Melhor contraste */
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
         }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        strong {
+            color: #34495e;
+        }
+
         ul {
             list-style-type: square;
             padding-left: 20px;
         }
+
         li {
-            margin-bottom: 5px; /* Espaçamento entre itens da lista */
+            margin-bottom: 8px;
         }
-        p, li {
-            font-size: 16px;
+
+        a {
+            color: #3498db;
+            text-decoration: none;
         }
-        strong {
-            color: #2c3e50;
-        }
+
         a:hover {
-            color: #3498db; /* Cor azul ao passar o mouse */
-            text-decoration: underline; /* Sublinhado ao passar o mouse */
+            color: #2980b9;
+            text-decoration: underline;
         }
+
+        /* Responsividade */
         @media (max-width: 600px) {
             body {
-                padding: 10px;
-                font-size: 14px; /* Reduz tamanho da fonte */
+                padding: 15px;
+                font-size: 14px;
             }
+
             h1 {
-                font-size: 24px; /* Ajusta tamanho do título */
+                font-size: 24px;
             }
+
             h2 {
-                font-size: 18px; /* Ajusta tamanho dos subtítulos */
+                font-size: 18px;
+            }
+
+            .section {
+                padding: 15px;
             }
         }
-    </style>
     </style>
 </head>
 <body>
@@ -91,38 +130,3 @@
     </div>
 </body>
 </html>
-<style>
-    /* ...existing code... */
-    li {
-        margin-bottom: 5px; /* Espaçamento entre os itens da lista */
-    }
-</style>
-<style>
-    /* ...existing code... */
-    .section {
-        background: #ffffff;
-        color: #2c3e50; /* Texto com maior contraste */
-    }
-</style>
-<style>
-    /* ...existing code... */
-    .section {
-        background: #ffffff;
-        color: #2c3e50; /* Texto com maior contraste */
-    }
-</style>
-<style>
-    /* ...existing code... */
-    @media (max-width: 600px) {
-        body {
-            padding: 10px;
-            font-size: 14px; /* Reduz tamanho da fonte */
-        }
-        h1 {
-            font-size: 24px; /* Ajusta tamanho do título */
-        }
-        h2 {
-            font-size: 18px; /* Ajusta tamanho dos subtítulos */
-        }
-    }
-</style>
